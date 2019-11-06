@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "array-move": "^2.2.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-dnd": "^9.4.0",
     "react-dnd-html5-backend": "^9.4.0",
@@ -15,8 +16,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://lundbergarn.github.io/Todo_Drag_And_Drop",
   "eslintConfig": {
     "extends": "react-app"
   },

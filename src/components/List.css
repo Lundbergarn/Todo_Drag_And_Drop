@@ -1,0 +1,17 @@
+li {
+  text-align: center;
+  list-style-type: none;
+  padding: 15px 10px;
+  margin: 10px 0;
+  border: 1px solid grey;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+  background-color: #eee;
+  cursor: pointer;
+}
+li:hover {
+  background-color: #d4d4d4;
+}
+ul {
+  margin: 0 auto;
+  padding: 0;
+}
